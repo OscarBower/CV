@@ -7,7 +7,6 @@
     padding-left: 1.53vw;
     padding-right: 1.53vw;
     margin: 0;
-    border: 0;
 }
 
 .MainHeadings:hover {
@@ -27,4 +26,107 @@ nav {
 body {
     background-color: #064663;
     margin: 0;
+}
+
+.colourBox {
+    width: 50px;
+    height: 50px;
+}
+
+.blueBox {
+    background-color: blue;
+}
+
+.redBox {
+    background-color: red;
+}
+
+.greenBox {
+    background-color: green;
+}
+
+.basicCodeBar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.basicCodeBox {
+    background-color: #041C32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid #ECB365;
+    border-radius: 16px;
+}
+
+h2 {
+    color: #ECB365;
+}
+
+p {
+    color: #ECB365;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+button {
+    margin-top: 10px;
+    border: 1px solid #ECB365;
+    border-radius: 16px;
+    background-color: #064663;
+    color: #ECB365;
+}
+
+h3 {
+    color: #ECB365;
+    font-size: 30px;
+    padding-left: 40px;
+    text-decoration: underline;
+}
+
+.paragraph {
+    font-size: 20px;
+    color: #ECB365;
+    text-align: center;
+}
+
+.smallBox {
+    background-color: #064663;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.largeBox {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.qualificationCategory {
+    color: #ECB365;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+
+.qualification {
+    font-size: 20px;
+    color: #ECB365;
+    text-align: left;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+
+.column {
+    margin-top: 10px;
+    display: block;
+    justify-content: space-around;
 }
